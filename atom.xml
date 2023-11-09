@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>折影轻梦</title>
+  <title>Chunol的博客</title>
   
-  <subtitle>小雏菊</subtitle>
-  <link href="https://nexmoe.com/atom.xml" rel="self"/>
+  <subtitle>QwQ</subtitle>
+  <link href="https://chunol.top/atom.xml" rel="self"/>
   
-  <link href="https://nexmoe.com/"/>
+  <link href="https://chunol.top/"/>
   <updated>2023-05-11T13:04:38.000Z</updated>
-  <id>https://nexmoe.com/</id>
+  <id>https://chunol.top/</id>
   
   <author>
-    <name>折影轻梦</name>
+    <name>Chunol</name>
     
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>新功能！你想要的他来了 ！</title>
-    <link href="https://nexmoe.com/1951HNH.html"/>
-    <id>https://nexmoe.com/1951HNH.html</id>
+    <link href="https://chunol.top/1951HNH.html"/>
+    <id>https://chunol.top/1951HNH.html</id>
     <published>2023-02-18T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -33,21 +33,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="功能" scheme="https://nexmoe.com/tags/%E5%8A%9F%E8%83%BD/"/>
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="小舒同学" scheme="https://nexmoe.com/tags/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
   </entry>
   
   <entry>
     <title>网络自习室，赛博伴学师。伴学OS1</title>
-    <link href="https://nexmoe.com/3D6KFQ1.html"/>
-    <id>https://nexmoe.com/3D6KFQ1.html</id>
+    <link href="https://chunol.top/3D6KFQ1.html"/>
+    <id>https://chunol.top/3D6KFQ1.html</id>
     <published>2023-01-21T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -68,19 +62,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="伴学OS1" scheme="https://nexmoe.com/tags/%E4%BC%B4%E5%AD%A6OS1/"/>
     
   </entry>
   
   <entry>
     <title>2022，没有记忆的一年</title>
-    <link href="https://nexmoe.com/JNEGYT.html"/>
-    <id>https://nexmoe.com/JNEGYT.html</id>
+    <link href="https://chunol.top/JNEGYT.html"/>
+    <id>https://chunol.top/JNEGYT.html</id>
     <published>2023-01-08T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -95,23 +85,15 @@
     
     
     
-    <category term="人生这旅途" scheme="https://nexmoe.com/categories/%E4%BA%BA%E7%94%9F%E8%BF%99%E6%97%85%E9%80%94/"/>
+    <category term="人生这旅途" scheme="https://chunol.top/categories/%E4%BA%BA%E7%94%9F%E8%BF%99%E6%97%85%E9%80%94/"/>
     
-    
-    <category term="社会" scheme="https://nexmoe.com/tags/%E7%A4%BE%E4%BC%9A/"/>
-    
-    <category term="折影轻梦" scheme="https://nexmoe.com/tags/%E6%8A%98%E5%BD%B1%E8%BD%BB%E6%A2%A6/"/>
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="Edge" scheme="https://nexmoe.com/tags/Edge/"/>
     
   </entry>
   
   <entry>
     <title>用小舒同学做笔记</title>
-    <link href="https://nexmoe.com/199G3Z.html"/>
-    <id>https://nexmoe.com/199G3Z.html</id>
+    <link href="https://chunol.top/199G3Z.html"/>
+    <id>https://chunol.top/199G3Z.html</id>
     <published>2022-10-28T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -127,19 +109,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="小舒同学" scheme="https://nexmoe.com/tags/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
-    
-    <category term="Xiaoshu" scheme="https://nexmoe.com/tags/Xiaoshu/"/>
     
   </entry>
   
   <entry>
     <title>新群的诞生</title>
-    <link href="https://nexmoe.com/3145B9F.html"/>
-    <id>https://nexmoe.com/3145B9F.html</id>
+    <link href="https://chunol.top/3145B9F.html"/>
+    <id>https://chunol.top/3145B9F.html</id>
     <published>2022-10-21T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -155,15 +133,15 @@
     
     
     
-    <category term="人生这旅途" scheme="https://nexmoe.com/categories/%E4%BA%BA%E7%94%9F%E8%BF%99%E6%97%85%E9%80%94/"/>
+    <category term="人生这旅途" scheme="https://chunol.top/categories/%E4%BA%BA%E7%94%9F%E8%BF%99%E6%97%85%E9%80%94/"/>
     
     
   </entry>
   
   <entry>
     <title>重大更新，强大的小舒同学新标签页尽在 2.2 版本</title>
-    <link href="https://nexmoe.com/104SXRZ.html"/>
-    <id>https://nexmoe.com/104SXRZ.html</id>
+    <link href="https://chunol.top/104SXRZ.html"/>
+    <id>https://chunol.top/104SXRZ.html</id>
     <published>2022-10-20T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -178,23 +156,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="功能" scheme="https://nexmoe.com/tags/%E5%8A%9F%E8%83%BD/"/>
-    
-    <category term="小舒同学" scheme="https://nexmoe.com/tags/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
-    
-    <category term="Xiaoshu" scheme="https://nexmoe.com/tags/Xiaoshu/"/>
-    
-    <category term="Meteor" scheme="https://nexmoe.com/tags/Meteor/"/>
     
   </entry>
   
   <entry>
     <title>Meteor New Tab 是什么产品？产品介绍及产品灵魂</title>
-    <link href="https://nexmoe.com/347D5DP.html"/>
-    <id>https://nexmoe.com/347D5DP.html</id>
+    <link href="https://chunol.top/347D5DP.html"/>
+    <id>https://chunol.top/347D5DP.html</id>
     <published>2022-09-24T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -209,35 +179,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="功能" scheme="https://nexmoe.com/tags/%E5%8A%9F%E8%83%BD/"/>
-    
-    <category term="折影轻梦" scheme="https://nexmoe.com/tags/%E6%8A%98%E5%BD%B1%E8%BD%BB%E6%A2%A6/"/>
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="设计" scheme="https://nexmoe.com/tags/%E8%AE%BE%E8%AE%A1/"/>
-    
-    <category term="产品" scheme="https://nexmoe.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="交互" scheme="https://nexmoe.com/tags/%E4%BA%A4%E4%BA%92/"/>
-    
-    <category term="Edge" scheme="https://nexmoe.com/tags/Edge/"/>
-    
-    <category term="Xiaoshu" scheme="https://nexmoe.com/tags/Xiaoshu/"/>
-    
-    <category term="觅漫者" scheme="https://nexmoe.com/tags/%E8%A7%85%E6%BC%AB%E8%80%85/"/>
-    
-    <category term="Meteor" scheme="https://nexmoe.com/tags/Meteor/"/>
     
   </entry>
   
   <entry>
     <title>为什么我认为图书馆和体育馆要设立付费预约？</title>
-    <link href="https://nexmoe.com/13WN8TE.html"/>
-    <id>https://nexmoe.com/13WN8TE.html</id>
+    <link href="https://chunol.top/13WN8TE.html"/>
+    <id>https://chunol.top/13WN8TE.html</id>
     <published>2022-09-18T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -257,17 +207,15 @@
     
     
     
-    <category term="世界" scheme="https://nexmoe.com/categories/%E4%B8%96%E7%95%8C/"/>
+    <category term="世界" scheme="https://chunol.top/categories/%E4%B8%96%E7%95%8C/"/>
     
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
     
   </entry>
   
   <entry>
     <title>Meteor New Tab - Makes Your Bookmarks Great Again</title>
-    <link href="https://nexmoe.com/309MG4P.html"/>
-    <id>https://nexmoe.com/309MG4P.html</id>
+    <link href="https://chunol.top/309MG4P.html"/>
+    <id>https://chunol.top/309MG4P.html</id>
     <published>2022-08-05T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -281,27 +229,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="功能" scheme="https://nexmoe.com/tags/%E5%8A%9F%E8%83%BD/"/>
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="设计" scheme="https://nexmoe.com/tags/%E8%AE%BE%E8%AE%A1/"/>
-    
-    <category term="产品" scheme="https://nexmoe.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Edge" scheme="https://nexmoe.com/tags/Edge/"/>
-    
-    <category term="Chrome" scheme="https://nexmoe.com/tags/Chrome/"/>
     
   </entry>
   
   <entry>
     <title>我的作品让360团队看上了，作为一个大学生无比荣幸</title>
-    <link href="https://nexmoe.com/1MFP7YQ.html"/>
-    <id>https://nexmoe.com/1MFP7YQ.html</id>
+    <link href="https://chunol.top/1MFP7YQ.html"/>
+    <id>https://chunol.top/1MFP7YQ.html</id>
     <published>2022-07-25T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -317,25 +253,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="设计" scheme="https://nexmoe.com/tags/%E8%AE%BE%E8%AE%A1/"/>
-    
-    <category term="Github.com" scheme="https://nexmoe.com/tags/Github-com/"/>
-    
-    <category term="Xiaoshu" scheme="https://nexmoe.com/tags/Xiaoshu/"/>
-    
-    <category term="探索者小舒" scheme="https://nexmoe.com/tags/%E6%8E%A2%E7%B4%A2%E8%80%85%E5%B0%8F%E8%88%92/"/>
     
   </entry>
   
   <entry>
     <title>（转载）健康学习到150岁 - 人体系统调优不完全指南</title>
-    <link href="https://nexmoe.com/F8NXYJ.html"/>
-    <id>https://nexmoe.com/F8NXYJ.html</id>
+    <link href="https://chunol.top/F8NXYJ.html"/>
+    <id>https://chunol.top/F8NXYJ.html</id>
     <published>2022-05-29T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -350,35 +276,15 @@
     
     
     
-    <category term="世界" scheme="https://nexmoe.com/categories/%E4%B8%96%E7%95%8C/"/>
+    <category term="世界" scheme="https://chunol.top/categories/%E4%B8%96%E7%95%8C/"/>
     
-    
-    <category term="社会" scheme="https://nexmoe.com/tags/%E7%A4%BE%E4%BC%9A/"/>
-    
-    <category term="功能" scheme="https://nexmoe.com/tags/%E5%8A%9F%E8%83%BD/"/>
-    
-    <category term="方案" scheme="https://nexmoe.com/tags/%E6%96%B9%E6%A1%88/"/>
-    
-    <category term="音乐" scheme="https://nexmoe.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="设计" scheme="https://nexmoe.com/tags/%E8%AE%BE%E8%AE%A1/"/>
-    
-    <category term="产品" scheme="https://nexmoe.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Github.com" scheme="https://nexmoe.com/tags/Github-com/"/>
-    
-    <category term="Product" scheme="https://nexmoe.com/tags/Product/"/>
-    
-    <category term="睡眠" scheme="https://nexmoe.com/tags/%E7%9D%A1%E7%9C%A0/"/>
-    
-    <category term="指南" scheme="https://nexmoe.com/tags/%E6%8C%87%E5%8D%97/"/>
     
   </entry>
   
   <entry>
     <title>小舒同学是怎么帮助我学习，卷死舍友的？</title>
-    <link href="https://nexmoe.com/612NPF.html"/>
-    <id>https://nexmoe.com/612NPF.html</id>
+    <link href="https://chunol.top/612NPF.html"/>
+    <id>https://chunol.top/612NPF.html</id>
     <published>2022-03-09T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -394,23 +300,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="功能" scheme="https://nexmoe.com/tags/%E5%8A%9F%E8%83%BD/"/>
-    
-    <category term="设计" scheme="https://nexmoe.com/tags/%E8%AE%BE%E8%AE%A1/"/>
-    
-    <category term="小舒同学" scheme="https://nexmoe.com/tags/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
-    
-    <category term="Xiaoshu" scheme="https://nexmoe.com/tags/Xiaoshu/"/>
     
   </entry>
   
   <entry>
     <title>好好洗手也许是世界上最健康的习惯（Ep1. 洗手的好处与坏处）</title>
-    <link href="https://nexmoe.com/RGGPM7.html"/>
-    <id>https://nexmoe.com/RGGPM7.html</id>
+    <link href="https://chunol.top/RGGPM7.html"/>
+    <id>https://chunol.top/RGGPM7.html</id>
     <published>2022-02-15T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -426,19 +324,15 @@
     
     
     
-    <category term="世界" scheme="https://nexmoe.com/categories/%E4%B8%96%E7%95%8C/"/>
+    <category term="世界" scheme="https://chunol.top/categories/%E4%B8%96%E7%95%8C/"/>
     
-    
-    <category term="生命" scheme="https://nexmoe.com/tags/%E7%94%9F%E5%91%BD/"/>
-    
-    <category term="社会" scheme="https://nexmoe.com/tags/%E7%A4%BE%E4%BC%9A/"/>
     
   </entry>
   
   <entry>
     <title>失眠患者，你得了解的有关褪黑素的副作用</title>
-    <link href="https://nexmoe.com/ASNKHZ.html"/>
-    <id>https://nexmoe.com/ASNKHZ.html</id>
+    <link href="https://chunol.top/ASNKHZ.html"/>
+    <id>https://chunol.top/ASNKHZ.html</id>
     <published>2022-02-11T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -453,21 +347,15 @@
     
     
     
-    <category term="世界" scheme="https://nexmoe.com/categories/%E4%B8%96%E7%95%8C/"/>
+    <category term="世界" scheme="https://chunol.top/categories/%E4%B8%96%E7%95%8C/"/>
     
-    
-    <category term="生命" scheme="https://nexmoe.com/tags/%E7%94%9F%E5%91%BD/"/>
-    
-    <category term="产品" scheme="https://nexmoe.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Product" scheme="https://nexmoe.com/tags/Product/"/>
     
   </entry>
   
   <entry>
     <title>如果你要增重，请先问问自己（如何增重）</title>
-    <link href="https://nexmoe.com/2X47A2G.html"/>
-    <id>https://nexmoe.com/2X47A2G.html</id>
+    <link href="https://chunol.top/2X47A2G.html"/>
+    <id>https://chunol.top/2X47A2G.html</id>
     <published>2022-02-10T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -486,15 +374,15 @@
     
     
     
-    <category term="世界" scheme="https://nexmoe.com/categories/%E4%B8%96%E7%95%8C/"/>
+    <category term="世界" scheme="https://chunol.top/categories/%E4%B8%96%E7%95%8C/"/>
     
     
   </entry>
   
   <entry>
     <title>(2021年终)19岁，找回迷失的自己：热爱、勇敢以及感恩</title>
-    <link href="https://nexmoe.com/WMFCB3.html"/>
-    <id>https://nexmoe.com/WMFCB3.html</id>
+    <link href="https://chunol.top/WMFCB3.html"/>
+    <id>https://chunol.top/WMFCB3.html</id>
     <published>2021-12-25T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -505,25 +393,15 @@
     
     
     
-    <category term="人生这旅途" scheme="https://nexmoe.com/categories/%E4%BA%BA%E7%94%9F%E8%BF%99%E6%97%85%E9%80%94/"/>
+    <category term="人生这旅途" scheme="https://chunol.top/categories/%E4%BA%BA%E7%94%9F%E8%BF%99%E6%97%85%E9%80%94/"/>
     
-    
-    <category term="生命" scheme="https://nexmoe.com/tags/%E7%94%9F%E5%91%BD/"/>
-    
-    <category term="博客" scheme="https://nexmoe.com/tags/%E5%8D%9A%E5%AE%A2/"/>
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="音乐" scheme="https://nexmoe.com/tags/%E9%9F%B3%E4%B9%90/"/>
-    
-    <category term="浪漫" scheme="https://nexmoe.com/tags/%E6%B5%AA%E6%BC%AB/"/>
     
   </entry>
   
   <entry>
     <title>正式版发布前夕，基建基本完成。重新向你介绍，小舒同学，你的下一代新建标签页。</title>
-    <link href="https://nexmoe.com/3NQD4F.html"/>
-    <id>https://nexmoe.com/3NQD4F.html</id>
+    <link href="https://chunol.top/3NQD4F.html"/>
+    <id>https://chunol.top/3NQD4F.html</id>
     <published>2021-12-16T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -534,23 +412,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="功能" scheme="https://nexmoe.com/tags/%E5%8A%9F%E8%83%BD/"/>
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="小舒同学" scheme="https://nexmoe.com/tags/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
-    
-    <category term="Xiaoshu" scheme="https://nexmoe.com/tags/Xiaoshu/"/>
     
   </entry>
   
   <entry>
     <title>学习通加Anki光速逃离挂科</title>
-    <link href="https://nexmoe.com/28M7YJG.html"/>
-    <id>https://nexmoe.com/28M7YJG.html</id>
+    <link href="https://chunol.top/28M7YJG.html"/>
+    <id>https://chunol.top/28M7YJG.html</id>
     <published>2021-11-25T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -561,17 +431,15 @@
     
     
     
-    <category term="开发" scheme="https://nexmoe.com/categories/%E5%BC%80%E5%8F%91/"/>
+    <category term="开发" scheme="https://chunol.top/categories/%E5%BC%80%E5%8F%91/"/>
     
-    
-    <category term="模板" scheme="https://nexmoe.com/tags/%E6%A8%A1%E6%9D%BF/"/>
     
   </entry>
   
   <entry>
     <title>19岁集5年经验的项目，小舒同学</title>
-    <link href="https://nexmoe.com/Y6V6RP.html"/>
-    <id>https://nexmoe.com/Y6V6RP.html</id>
+    <link href="https://chunol.top/Y6V6RP.html"/>
+    <id>https://chunol.top/Y6V6RP.html</id>
     <published>2021-11-15T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -582,29 +450,15 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="功能" scheme="https://nexmoe.com/tags/%E5%8A%9F%E8%83%BD/"/>
-    
-    <category term="折影轻梦" scheme="https://nexmoe.com/tags/%E6%8A%98%E5%BD%B1%E8%BD%BB%E6%A2%A6/"/>
-    
-    <category term="轻惋" scheme="https://nexmoe.com/tags/%E8%BD%BB%E6%83%8B/"/>
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="产品" scheme="https://nexmoe.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="小舒同学" scheme="https://nexmoe.com/tags/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
-    
-    <category term="Xiaoshu" scheme="https://nexmoe.com/tags/Xiaoshu/"/>
     
   </entry>
   
   <entry>
     <title>小舒同学的可用性测试与反思</title>
-    <link href="https://nexmoe.com/ZFDZT7.html"/>
-    <id>https://nexmoe.com/ZFDZT7.html</id>
+    <link href="https://chunol.top/ZFDZT7.html"/>
+    <id>https://chunol.top/ZFDZT7.html</id>
     <published>2021-11-06T16:00:00.000Z</published>
     <updated>2023-05-11T13:04:38.000Z</updated>
     
@@ -615,26 +469,8 @@
     
     
     
-    <category term="小舒同学" scheme="https://nexmoe.com/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
+    <category term="小舒同学" scheme="https://chunol.top/categories/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
     
-    
-    <category term="功能" scheme="https://nexmoe.com/tags/%E5%8A%9F%E8%83%BD/"/>
-    
-    <category term="Nexmoe" scheme="https://nexmoe.com/tags/Nexmoe/"/>
-    
-    <category term="方案" scheme="https://nexmoe.com/tags/%E6%96%B9%E6%A1%88/"/>
-    
-    <category term="扩展" scheme="https://nexmoe.com/tags/%E6%89%A9%E5%B1%95/"/>
-    
-    <category term="设计" scheme="https://nexmoe.com/tags/%E8%AE%BE%E8%AE%A1/"/>
-    
-    <category term="产品" scheme="https://nexmoe.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-    <category term="Edge" scheme="https://nexmoe.com/tags/Edge/"/>
-    
-    <category term="小舒同学" scheme="https://nexmoe.com/tags/%E5%B0%8F%E8%88%92%E5%90%8C%E5%AD%A6/"/>
-    
-    <category term="Xiaoshu" scheme="https://nexmoe.com/tags/Xiaoshu/"/>
     
   </entry>
   
