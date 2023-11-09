@@ -4,7 +4,7 @@
 
     <url>
         <loc>https://chunol.top/tags/Hi/</loc>
-        <lastmod>2023-11-09T14:30:06.288Z</lastmod>
+        <lastmod>2023-11-09T14:46:09.595Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
@@ -24,13 +24,6 @@
     </url>
 
     <url>
-        <loc>https://chunol.top/tags/Typecho/</loc>
-        <lastmod>2023-05-11T13:04:38.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://chunol.top/tags/PHP/</loc>
         <lastmod>2023-05-11T13:04:38.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -39,6 +32,13 @@
 
     <url>
         <loc>https://chunol.top/tags/Vue/</loc>
+        <lastmod>2023-05-11T13:04:38.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://chunol.top/tags/Typecho/</loc>
         <lastmod>2023-05-11T13:04:38.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
