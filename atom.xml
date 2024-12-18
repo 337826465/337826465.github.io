@@ -6,7 +6,7 @@
   <link href="https://chunol.top/atom.xml" rel="self"/>
   
   <link href="https://chunol.top/"/>
-  <updated>2024-08-31T16:50:29.130Z</updated>
+  <updated>2024-12-18T09:42:09.068Z</updated>
   <id>https://chunol.top/</id>
   
   <author>
@@ -21,16 +21,43 @@
     <link href="https://chunol.top/80D4Q8.html"/>
     <id>https://chunol.top/80D4Q8.html</id>
     <published>2024-08-30T16:00:00.000Z</published>
-    <updated>2024-08-31T16:50:29.130Z</updated>
+    <updated>2024-12-18T09:42:09.068Z</updated>
     
-    <content type="html"><![CDATA[<h2 id=""></h2><h2 id="代码库">代码库</h2><p>相关代码被托管在 <a href="https://github.com/337826465/uigf2.2-to-uigf4.0-HuTao-">GitHub</a> 上，详情见README</p><h2 id="UIGF">UIGF</h2><p><a href="https://uigf.org/zh/">UIGF</a> 即统一标准化的原神数据格式 (Uniformed Interchangeable GachaLog Format standard)</p><p>通俗而言，就是用于传输记录原神祈愿记录的 json 标准</p><h2 id="起因">起因</h2><p>我以前一直在用“提瓦特小助手”的微信小程序，但那个工具导出的标准属于 UIGF-2.2 ，与大部分 PC 端工具不兼容</p><p>我在 PC 端使用的是 <a href="https://hut.ao/zh/">Snap Hutao|胡桃工具箱</a> ，本人所写程序目前仅用于在 Snap Hutao 上的实现。</p>]]></content>
+    <content type="html"><![CDATA[<h1>PowerShell：重新安装 oh-my-posh</h1><h2 id="起因">起因</h2><p>最近打开 PowerShell 时，看到这样一条讯息：</p><p><a href="https://imgse.com/i/pAL4IVx"><img onerror="imgOnError(this);" data-fancybox="gallery" src="https://s21.ax1x.com/2024/12/18/pAL4IVx.png" alt="pAL4IVx.png" data-caption="pAL4IVx.png" loading="lazy"></a></p><p>主要是说， oh-my-posh 的 PowerShell module 版本已经停止支持，并已移除了相关功能。</p><p>现在在 PowerShell 上需要使用init启动oh-my-posh。</p><p><em>详情参见[官网](<a href="https://ohmyposh.dev/docs/migrating">PowerShell module | Oh My Posh</a>)</em></p><h2 id="卸载">卸载</h2><h3 id="删除模块的缓存文件">删除模块的缓存文件</h3><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">Remove-Item</span> <span class="hljs-variable">$env:POSH_PATH</span> <span class="hljs-literal">-Force</span> <span class="hljs-literal">-Recurse</span><br></code></pre></td></tr></table></figure><h3 id="卸载-PowerShell-模块">卸载 PowerShell 模块</h3><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">Uninstall-Module</span> <span class="hljs-built_in">oh</span><span class="hljs-literal">-my-posh</span> <span class="hljs-literal">-AllVersions</span><br></code></pre></td></tr></table></figure><h3 id="删除-PowerShell-模块的-PROFILE">删除 PowerShell 模块的<code>$PROFILE</code></h3><p>打开<code>$PROFILE</code>文件</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell">open <span class="hljs-variable">$Profile</span><br></code></pre></td></tr></table></figure><p>在该文件中删去如下命令</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">Import-Module</span> <span class="hljs-built_in">oh</span><span class="hljs-literal">-my-posh</span><br></code></pre></td></tr></table></figure><p>如果继续使用该命令，启动时将会得到开篇的提示，且启动失败。</p><h2 id="安装">安装</h2><p>推荐 winget 和 Windows 应用商店，安装后会自动添加环境变量。</p><p>这里使用 winget 。</p><h3 id="安装-oh-my-posh-exe">安装 oh-my-posh.exe</h3><p>打开 PowerShell 并运行以下命令：</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell">winget install JanDeDobbeleer.OhMyPosh <span class="hljs-literal">-s</span> winget<br></code></pre></td></tr></table></figure><p>这个命令会安装内容如下：</p><ul><li><code>oh-my-posh.exe</code>Windows 可执行文件</li><li><code>themes</code>最新的 Oh My Posh <a href="https://ohmyposh.dev/docs/themes">主题</a></li></ul><p>建议运行如下命令：</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell"><span class="hljs-variable">$env:Path</span> += <span class="hljs-string">&quot;;C:\Users\user\AppData\Local\Programs\oh-my-posh\bin&quot;</span><br></code></pre></td></tr></table></figure><p>这会手动将其添加到环境变量中</p><h3 id="安装Nerd-字体">安装Nerd 字体</h3><p>Nerd 字体提供了大量的图标，如果未安装的话，主题将无法正常显示。</p><h4 id="用-oh-my-posh-安装">用 oh-my-posh 安装</h4><p><em>注：非管理员模式将安装在用户目录下，管理员模式将会安装在系统目录下。</em></p><p>你可以直接使用 oh-my-posh 中如下命令安装字体</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">oh</span><span class="hljs-literal">-my-posh</span> font install<br></code></pre></td></tr></table></figure><p>这将显示可安装的字体列表，如果我想要安装字体<code>meslo</code></p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">oh</span><span class="hljs-literal">-my-posh</span> font install meslo<br></code></pre></td></tr></table></figure><h4 id="下载-otf">下载.otf</h4><p>访问<a href="https://www.nerdfonts.com/font-downloads">Nerd官网</a>，安装你喜欢的字体，大部分都可预览。</p><h3 id="配置文件">配置文件</h3><h4 id="启用-oh-my-posh">启用 oh-my-posh</h4><p>打开<code>$PROFILE</code>文件</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell">open <span class="hljs-variable">$Profile</span><br></code></pre></td></tr></table></figure><p>在该文件中加入</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">oh</span><span class="hljs-literal">-my-posh</span> init pwsh | <span class="hljs-built_in">Invoke-Expression</span><br></code></pre></td></tr></table></figure><h4 id="选择主题">选择主题</h4><p>将刚才的配置稍作修改</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell"><span class="hljs-comment"># 设置 PowerShell 主题</span><br><span class="hljs-built_in">oh</span><span class="hljs-literal">-my-posh</span> init pwsh <span class="hljs-literal">--config</span> <span class="hljs-string">&quot;<span class="hljs-variable">$env:POSH_THEMES_PATH</span>\atomic.omp.json&quot;</span> | <span class="hljs-built_in">Invoke-Expression</span><br></code></pre></td></tr></table></figure><p>其中，&quot;$env:POSH_THEMES_PATH\atomic.omp.json&quot;是对官方主题atomic.omp.json的调用</p><p>你可以使用如下命令来查看所有的官方主题</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell"><span class="hljs-built_in">Get-PoshThemes</span><br></code></pre></td></tr></table></figure><p>将你喜欢的主题名称，替换掉这里的 atomic 即可。</p><p>使用如下命令使配置文件立即生效</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell">. <span class="hljs-variable">$PROFILE</span><br></code></pre></td></tr></table></figure><h3 id="白名单">白名单</h3><p>官方提到：<em>“由于 Oh My Posh 的频繁更新，防病毒软件偶尔会对其进行标记（误报）。 为确保 Oh My Posh 不被阻止，您可以将其报告给您最喜欢的防病毒软件作为误报或为其创建排除项。”</em></p><p>​因此，我们最好把 oh-my-posh 添加到杀毒软件的白名单。</p><p>​由于我只使用Windows10的Windows Defender，故只介绍这一个。</p><h4 id="确定位置">确定位置</h4><p>首先要获取 oh-my-posh.exe 的详细位置</p><p>执行如下命令：</p><figure class="highlight powershell"><table><tr><td class="code"><pre><code class="hljs powershell">(<span class="hljs-built_in">Get-Command</span> <span class="hljs-built_in">oh</span><span class="hljs-literal">-my-posh</span>).Source<br></code></pre></td></tr></table></figure><h4 id="加入白名单">加入白名单</h4><p>打开windows 安全中心 → 病毒和威胁防护 → “病毒和威胁防护”设置(管理设置) → 排除项</p><p>然后添加该文件即可</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;/h2&gt;
-&lt;h2 id=&quot;代码库&quot;&gt;代码库&lt;/h2&gt;
-&lt;p&gt;相关代码被托管在 &lt;a href=&quot;https://github.com/337826465/uigf2.2-to-uigf4.0-HuTao-&quot;&gt;GitHub&lt;/a&gt; 上，详情见README&lt;/p</summary>
+    <summary type="html">&lt;h1&gt;PowerShell：重新安装 oh-my-posh&lt;/h1&gt;
+&lt;h2 id=&quot;起因&quot;&gt;起因&lt;/h2&gt;
+&lt;p&gt;最近打开 PowerShell 时，看到这样一条讯息：&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://imgse.com/i/pAL4IVx&quot;&gt;&lt;img one</summary>
+      
+    
+    
+    
+    <category term="代码" scheme="https://chunol.top/categories/%E4%BB%A3%E7%A0%81/"/>
+    
+    
+    <category term="项目" scheme="https://chunol.top/tags/%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>uigf2.2转uigf4.0(HuTao)</title>
+    <link href="https://chunol.top/80D4Q8.html"/>
+    <id>https://chunol.top/80D4Q8.html</id>
+    <published>2024-08-30T16:00:00.000Z</published>
+    <updated>2024-12-18T09:38:51.622Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="代码库">代码库</h2><p>相关代码被托管在 <a href="https://github.com/337826465/uigf2.2-to-uigf4.0-HuTao-">GitHub</a> 上，详情见README</p><h2 id="UIGF">UIGF</h2><p><a href="https://uigf.org/zh/">UIGF</a> 即统一标准化的原神数据格式 (Uniformed Interchangeable GachaLog Format standard)</p><p>通俗而言，就是用于传输记录原神祈愿记录的 json 标准</p><h2 id="起因">起因</h2><p>我以前一直在用“提瓦特小助手”的微信小程序，但那个工具导出的标准属于 UIGF-2.2 ，与大部分 PC 端工具不兼容</p><p>我在 PC 端使用的是 <a href="https://hut.ao/zh/">Snap Hutao|胡桃工具箱</a> ，本人所写程序目前仅用于在 Snap Hutao 上的实现。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;代码库&quot;&gt;代码库&lt;/h2&gt;
+&lt;p&gt;相关代码被托管在 &lt;a href=&quot;https://github.com/337826465/uigf2.2-to-uigf4.0-HuTao-&quot;&gt;GitHub&lt;/a&gt; 上，详情见README&lt;/p&gt;
+&lt;h2 id=&quot;UIGF&quot;&gt;</summary>
       
     
     
